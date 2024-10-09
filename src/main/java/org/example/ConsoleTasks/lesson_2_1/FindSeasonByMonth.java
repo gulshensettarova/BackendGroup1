@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class FindSeasonByMonth {
     public static void main(String[] args) {
-//        İstifadəçidən 1-dən 12-ə qədər bir ədəd istəyin. Daxil edilən dəyərə uyğun fəsli çıxarın ( 1,2 və 12 : qış, 3,4,5 :yaz və s.)        Scanner sc = new Scanner(System.in);
+//        İstifadəçidən 1-dən 12-ə qədər bir ədəd istəyin. Daxil edilən dəyərə uyğun fəsli çıxarın ( 1,2 və 12 : qış, 3,4,5 :yaz və s.)
         Scanner sc = new Scanner(System.in);
         System.out.println("1-dən 12-ə qədər ədəd daxil edin: ");
         byte month=sc.nextByte();

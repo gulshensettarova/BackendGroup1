@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class PrimeOrComposite {
     public static void main(String[] args) {
+//        1-dən 100-ə qədər sadə və mürəkkəb ədədləri tapan proqram yazın.
         Scanner input = new Scanner(System.in);
         int count=0;
         for(int i=3;i<=100;i++){
