@@ -1,11 +1,9 @@
-package org.example.ConsoleTasks;
+package org.example.ConsoleTasks.lesson_2_2;
 
 import java.util.Scanner;
 
-public class Lesson_2_2 {
+public class PrimeOrComposite {
     public static void main(String[] args) {
-
-//  1-dən 100-ə qədər sadə və mürəkkəb ədədləri tapan proqram yazın.
         Scanner input = new Scanner(System.in);
         int count=0;
         for(int i=3;i<=100;i++){
@@ -22,16 +20,5 @@ public class Lesson_2_2 {
                 System.out.println(i+" Sadə ədəddir");
             }
         }
-
-
-//   -------------------------------------------------------------------------------
-//   Vurma cedveli
-//        for(int i=1;i<=10;i++){
-//            for(int j=1;j<=10;j++){
-//                System.out.print(i+"*"+j+"="+(i*j)+"\t");
-//            }
-//            System.out.println();
-//        }
-
     }
 }
