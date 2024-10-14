@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class SumOfDigits {
     public static void main(String[] args) {
         //Verilmiş ədədin rəqəmləri cəmini tapan proqram yazın
+
         Scanner sc = new Scanner(System.in);
         int n =0;
         int sum = 0;
