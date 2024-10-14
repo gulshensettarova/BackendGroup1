@@ -1,5 +1,7 @@
 package org.example.ConsoleTasks.lesson_2_2.star_tasks;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Scanner;
 
 public class Task3 {
@@ -27,6 +29,5 @@ public class Task3 {
             }
             System.out.println();
         }
-
     }
 }
