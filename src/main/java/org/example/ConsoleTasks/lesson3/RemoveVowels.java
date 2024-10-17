@@ -23,4 +23,5 @@ public class RemoveVowels {
         }
         return result;
     }
+
 }

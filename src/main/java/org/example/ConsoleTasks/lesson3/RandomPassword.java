@@ -8,7 +8,6 @@ public class RandomPassword {
           System.out.println("Generated Password: " + generateRandomPassword2(12));
     }
     public static String generateRandomPassword(int length) {
-        // Parolda istifadə olunacaq simvolların toplusu
         String upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz";
         String digits = "0123456789";
