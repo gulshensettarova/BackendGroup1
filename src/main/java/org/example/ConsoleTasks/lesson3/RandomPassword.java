@@ -19,10 +19,10 @@ public class RandomPassword {
         // Bütün simvolları birləşdiririk
         String combinedChars = upperCaseLetters + lowerCaseLetters + digits + specialCharacters;
         Random random = new Random();
-        StringBuilder password = new StringBuilder();
+        String password = "";
         for (int i = 0; i < length; i++) {
             int randomIndex = random.nextInt(combinedChars.length());
-            password.append(combinedChars.charAt(randomIndex));
+            password+=combinedChars.charAt(randomIndex);
         }
         return password.toString();
     }
