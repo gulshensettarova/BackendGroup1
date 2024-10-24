@@ -9,6 +9,8 @@ public class Task1 {
 //        * * *
 //        * * * *
 //        * * * * *
+
+
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number: ");
         int number = sc.nextInt();
@@ -19,5 +21,8 @@ public class Task1 {
             System.out.println();
         }
 
+    }
+
+    public static void reverse(String word){
     }
 }
