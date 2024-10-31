@@ -8,7 +8,6 @@ public class CaesarEncryption {
         System.out.println("Please enter text: ");
         String text=sc.nextLine();
         System.out.println("Result: "+encryptWithCaesarCipher(text));
-        encryptWithCaesarCipher(text);
     }
     public static String encryptWithCaesarCipher(String text){
         String encryptedText="";
