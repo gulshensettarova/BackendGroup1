@@ -2,20 +2,18 @@ package org.example.lesson;
 
 public class StringMethods{
     public static void main(String[] args) {
-        String s1 = "Hello World!";
-        String s2 = "hello World!";
-        boolean b = s1.equalsIgnoreCase(s2);
-        s1 = s1.toLowerCase();
-        s1 = s1.toUpperCase();
-        s1 = s1.substring(4, 8);
-        s1 = s1.substring(1);
-        s1 = "   Hello World!   ";
+//        String s = "Hello World";
+//        String[] arrayStr = s.split(" ");
+//
+//        for (int i=0; i< arrayStr.length; i++){
+//            System.out.println(arrayStr[i]);
+//        }
 
-        s1 = s1.trim();
-        s1 = s1.replace("lo", "A");
+        String str = " ";
+        boolean b = str.isBlank();
 
-        System.out.println(s1);
-        int index = s1.lastIndexOf("l", 7);
-        System.out.println(index);
+        System.out.println("b = "+b);
+
+
     }
 }

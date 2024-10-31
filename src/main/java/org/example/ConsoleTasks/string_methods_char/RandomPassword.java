@@ -1,4 +1,4 @@
-package org.example.ConsoleTasks.lesson3;
+package org.example.ConsoleTasks.string_methods_char;
 
 import java.util.Random;
 
